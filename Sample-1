@@ -1,0 +1,13 @@
+public class FutureMethod {
+@future
+    public static void newLead(){
+        list<lead> leadlist=new list<lead>();
+        for(integer i=1; i<100; i++){
+            lead id=new lead();
+            id.LastName='Test '+i;
+            id.Company='Salesforce'+i;
+            leadlist.add(id);
+        }
+        insert leadlist;
+    }
+}
